@@ -8,6 +8,10 @@ Latest
 ------
 * tbd
 
+4.0.0
+-----
+* Major: Removed test step
+
 3.0.0
 -----
 * Major: Added a retry step at configure time.
