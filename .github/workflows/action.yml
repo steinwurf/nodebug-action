@@ -7,7 +7,7 @@ on:
         type: string
         required: false
       test_command:
-        description: "Test Command"
+        description: "DEPRECATED. No longer used as test is no longer runned."
         type: string
         required: false
         default: python3 waf --run_tests
@@ -36,7 +36,3 @@ jobs:
         run: |
           echo "::add-matcher::.github/gcc-problem-matcher.json"
           python3 waf
-      - name: Test
-        env:
-          TEST_COMMAND: ${{ inputs.test_command }}
-        run: ${{ env.TEST_COMMAND }}
