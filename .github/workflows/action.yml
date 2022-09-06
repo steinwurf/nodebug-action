@@ -6,11 +6,6 @@ on:
         description: "Extra Resolve Options"
         type: string
         required: false
-      test_command:
-        description: "DEPRECATED. No longer used as test is no longer runned."
-        type: string
-        required: false
-        default: python3 waf --run_tests
 jobs:
   ndebug:
     name: No Assertions
