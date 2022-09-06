@@ -8,6 +8,10 @@ Latest
 ------
 * tbd
 
+5.0.1
+-----
+* Patch: Change name to No Assertions
+
 5.0.0
 -----
 * Major: Removed test_command argument
