@@ -8,6 +8,10 @@ Latest
 ------
 * tbd
 
+6.0.0
+-----
+* Major: Add a max execution-time of 45 minutes
+
 5.0.1
 -----
 * Patch: Change name to No Assertions
