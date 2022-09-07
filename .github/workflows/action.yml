@@ -9,6 +9,7 @@ on:
 jobs:
   ndebug:
     name: No Assertions
+    timeout-minutes: 45
     runs-on: [self-hosted, docker, builder]
     container:
       image: steinwurf/gcc-11.2.0:1.0.0
