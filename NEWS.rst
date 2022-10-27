@@ -8,6 +8,11 @@ Latest
 ------
 * tbd
 
+7.0.0
+-----
+* Major: Upgraded to GCC-12
+* Major: Upgraded actions/checkout to v3
+
 6.0.0
 -----
 * Major: Add a max execution-time of 45 minutes
