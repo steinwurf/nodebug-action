@@ -12,13 +12,13 @@ jobs:
     timeout-minutes: 45
     runs-on: [self-hosted, docker, builder]
     container:
-      image: steinwurf/gcc-11.2.0:1.0.0
+      image: steinwurf/gcc-12:1.0.0
       options: --user 0:0
       volumes:
         - /home/buildbot/.ssh:/root/.ssh
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Configure
         env:
           EXTRA_RESOLVE_OPTIONS: ${{ inputs.extra_resolve_options }}
