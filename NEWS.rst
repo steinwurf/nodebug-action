@@ -8,6 +8,10 @@ Latest
 ------
 * tbd
 
+8.0.0
+-----
+* Major: Switch container
+
 7.0.0
 -----
 * Major: Upgraded to GCC-12
