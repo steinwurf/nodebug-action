@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 45
     runs-on: [self-hosted, docker, builder]
     container:
-      image: steinwurf/gcc-12:1.0.0
+      image: ghcr.io/steinwurf/gcc-12:1.0.0
       options: --user 0:0
       volumes:
         - /home/buildbot/.ssh:/root/.ssh
