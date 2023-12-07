@@ -6,7 +6,7 @@ every change, see the Git log.
 
 Latest
 ------
-* tbd
+* Major: Switch to Ubuntu 23.04 and GCC-12.3
 
 8.0.0
 -----
